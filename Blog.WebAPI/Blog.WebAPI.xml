@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.WebAPI.Controllers.TokenController.GetToke(Blog.WebAPI.ViewModel.LoginViewModel)">
+            <summary>
+            获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.WebAPI.Controllers.UserController">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="M:Blog.WebAPI.Controllers.UserController.CreateUser(Blog.WebAPI.ViewModel.UserViewModel)">
+            <summary>
+            创建用户
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.WebAPI.Controllers.ValuesController">
+            <summary>
+            测试控制器
+            </summary>
+        </member>
+        <member name="T:Blog.WebAPI.Token.TokenManager">
+            <summary>
+            Token管理类
+            </summary>
+        </member>
+        <member name="M:Blog.WebAPI.Token.TokenManager.IssueJwt(Blog.DTO.TokenModelJwt)">
+            <summary>
+            颁发JWT字符串
+            </summary>
+            <param name="tokenModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.WebAPI.Token.TokenManager.SerializeJwt(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.WebAPI.ViewModel.LoginViewModel">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.LoginViewModel.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.LoginViewModel.UserPwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.UserPwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.Bridthday">
+            <summary>
+            出生年月
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.Phone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:Blog.WebAPI.ViewModel.UserViewModel.GroupId">
+            <summary>
+            用户群组
+            </summary>
+        </member>
+    </members>
+</doc>

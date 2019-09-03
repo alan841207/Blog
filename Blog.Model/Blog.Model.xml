@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Blog.Model.Article">
+            <summary>
+            文章
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Article.ArticleTitle">
+            <summary>
+            文章标题
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Article.ArticleContent">
+            <summary>
+            文章内容
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Article.UserId">
+            <summary>
+            用户外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Article.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Article.Good">
+            <summary>
+            点赞数
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Article.IsShare">
+            <summary>
+            是否公开
+            </summary>
+        </member>
+        <member name="T:Blog.Model.ArticleToCategory">
+            <summary>
+            文章列表
+            </summary>
+        </member>
+        <member name="P:Blog.Model.ArticleToCategory.BlogCategoryId">
+            <summary>
+            类别外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.ArticleToCategory.BlogCategory">
+            <summary>
+            类别
+            </summary>
+        </member>
+        <member name="P:Blog.Model.ArticleToCategory.ArticleId">
+            <summary>
+            文章外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.BaseEntity.Guid">
+            <summary>
+            主键 自动生成Guid
+            </summary>
+        </member>
+        <member name="P:Blog.Model.BaseEntity.CreateTime">
+            <summary>
+            创建时间  默认时间
+            </summary>
+        </member>
+        <member name="P:Blog.Model.BaseEntity.IsRemove">
+            <summary>
+            是否删除(伪删除) 0:未删除  1:已删除
+            </summary>
+        </member>
+        <member name="T:Blog.Model.BlogCategory">
+            <summary>
+            博客分类表
+            </summary>
+        </member>
+        <member name="P:Blog.Model.BlogCategory.CategoryName">
+            <summary>
+            类别名称
+            </summary>
+        </member>
+        <member name="P:Blog.Model.BlogCategory.UserId">
+            <summary>
+            用户外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.BlogCategory.User">
+            <summary>
+             用户
+            </summary>
+        </member>
+        <member name="T:Blog.Model.Comment">
+            <summary>
+             评论
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Comment.CommentId">
+            <summary>
+            自增键 -> 几楼
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Comment.ArticleId">
+            <summary>
+            文章外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Comment.Article">
+            <summary>
+            文章
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Comment.CommentContent">
+            <summary>
+            留言内容
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Comment.UserId">
+            <summary>
+            用户外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.Comment.User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="T:Blog.Model.User">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.Pwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.UserSex">
+            <summary>
+            性别 0：男 1：女
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.Birthday">
+            <summary>
+            出生年月
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.Phone">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.UserGroupId">
+            <summary>
+            用户群组外键
+            </summary>
+        </member>
+        <member name="P:Blog.Model.User.UserGroup">
+            <summary>
+            用户群组
+            </summary>
+        </member>
+        <member name="T:Blog.Model.UserGroup">
+            <summary>
+            群组
+            </summary>
+        </member>
+        <member name="P:Blog.Model.UserGroup.GroupName">
+            <summary>
+            组名
+            </summary>
+        </member>
+    </members>
+</doc>
